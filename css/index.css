@@ -8,8 +8,14 @@
 .dropdown {width: 300px; height: 50px; margin: 0 auto;}
 .dropdown > ul {color: black;}
 .dropdown > li {width: 100px; height: 50px; overflow: hidden; float: left; line-height: 50px; text-align: center; font-size: 13px;}
-.dropdown > li:hover {height: 250px; transition: 2s;}
+.dropdown > li:hover {height: 250px; transition: 0.8s;}
 .dropdown > li :first-child {background-color: red;}
 .dropdown > li :nth-child(2) {background-color: blue;}
 .dropdown > li :nth-child(3) {background-color: green;}
 .dropdown > li :last-child {background-color: pink;}
+#prev_btn {position: absolute; top:0; left:0}
+#next_btn {position: absolute; top:0; right:0}
+.btn {width: 2em; height: 280px; border: 0; background: #f5f6fa; display: none;}
+#slider {position: relative;margin: 0 auto; padding: 0; list-style: none; width: 280px; height: 280px; overflow-x: hidden;}
+#slider li {display: none; position: absolute; left: 0;top: 0}
+#slider img {width: 280px; height: 280px;}
